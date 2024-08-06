@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdiotMarsch", "IdiotMarsch\IdiotMarsch.csproj", "{D1EF5779-8209-4E35-A2DE-3AAD4556A377}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Administration", "Administration\Administration.csproj", "{4ECC8306-CCBE-482E-B61B-02497CCDA858}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdiotMarsch.Db", "DB\IdiotMarsch.Db.csproj", "{7F67E8BC-4924-4FDF-A532-6257A6A84FE9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdiotMarsch.Contract", "Contract\IdiotMarsch.Contract.csproj", "{D81932F3-D58C-4778-B8E5-20F0286D16B4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdiotMarsch.Deployer", "Deploy\IdiotMarsch.Deployer.csproj", "{B60634B6-C938-42D7-AAEC-6EF0D012CAAD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdiotMarsch.Service", "Service\IdiotMarsch.Service.csproj", "{7F321434-6032-44A9-BC48-F21B9CCE4E47}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdiotMarsch.Common", "IdiotMarsch.Common\IdiotMarsch.Common.csproj", "{A880AF17-F829-4A2D-84B7-DD610AB3A9C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1EF5779-8209-4E35-A2DE-3AAD4556A377}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1EF5779-8209-4E35-A2DE-3AAD4556A377}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1EF5779-8209-4E35-A2DE-3AAD4556A377}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1EF5779-8209-4E35-A2DE-3AAD4556A377}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ECC8306-CCBE-482E-B61B-02497CCDA858}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ECC8306-CCBE-482E-B61B-02497CCDA858}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ECC8306-CCBE-482E-B61B-02497CCDA858}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ECC8306-CCBE-482E-B61B-02497CCDA858}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F67E8BC-4924-4FDF-A532-6257A6A84FE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F67E8BC-4924-4FDF-A532-6257A6A84FE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F67E8BC-4924-4FDF-A532-6257A6A84FE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F67E8BC-4924-4FDF-A532-6257A6A84FE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D81932F3-D58C-4778-B8E5-20F0286D16B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D81932F3-D58C-4778-B8E5-20F0286D16B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D81932F3-D58C-4778-B8E5-20F0286D16B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D81932F3-D58C-4778-B8E5-20F0286D16B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B60634B6-C938-42D7-AAEC-6EF0D012CAAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B60634B6-C938-42D7-AAEC-6EF0D012CAAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B60634B6-C938-42D7-AAEC-6EF0D012CAAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B60634B6-C938-42D7-AAEC-6EF0D012CAAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F321434-6032-44A9-BC48-F21B9CCE4E47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F321434-6032-44A9-BC48-F21B9CCE4E47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F321434-6032-44A9-BC48-F21B9CCE4E47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F321434-6032-44A9-BC48-F21B9CCE4E47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A880AF17-F829-4A2D-84B7-DD610AB3A9C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A880AF17-F829-4A2D-84B7-DD610AB3A9C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A880AF17-F829-4A2D-84B7-DD610AB3A9C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A880AF17-F829-4A2D-84B7-DD610AB3A9C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC52DD5C-4C44-49E1-B31E-D3E84292571A}
+	EndGlobalSection
+EndGlobal
